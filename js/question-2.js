@@ -25,7 +25,7 @@ async function getAPI() {
         }
     }
     catch (error) {
-        results.innerHTML = displayError("An error occured when calling the API");
+        results.innerHTML = displayError("An error occurred when calling the API");
     }
 }
 
